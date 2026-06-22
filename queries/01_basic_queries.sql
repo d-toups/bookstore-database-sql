@@ -1,3 +1,12 @@
+--01_basic_queries.sql
+--Basic retrieval queries
+
+--1. Get all books with their publisher
+
+--2. Find books that are out of stock
+
+--3. List all customers with their orders
+
 Select title from Books Where Books.price > 50;
 
 Select ordernum from Customers, Orders where (Customers.cid = 001 and Customers.cid = Orders.cid);
