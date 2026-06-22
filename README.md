@@ -33,6 +33,7 @@ bookstore-database-sql/
 1. Run `schema/01_create_schema.sql` to create the database tables
 2. Run `inserts/01_insert_data.sql` to populate sample data
 3. Explore the analytical queries in the `queries/` folder
+4. Explore the [Data Dictionary](docs/data_dictionary.md)
 
 ## ERD
 ![Bookstore ERD](ERD/bookstore_erd.png)
