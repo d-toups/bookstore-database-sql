@@ -21,6 +21,8 @@ bookstore-database-sql/
 │   └── 01_insert_data.sql
 ├── queries/
 │   ├── 01_basic_queries.sql
+│   ├── 02_analytics_queries.sql
+│   └── 03_advanced_queries.sql
 ├── ERD/
 │   └── bookstore_erd.png
 ├── docs/
@@ -28,14 +30,18 @@ bookstore-database-sql/
 └── README.md
 ```
 ## How to Use
-1. Run schema/01_create_schema.sql to create tables
-2. Run inserts/01_insert_data.sql to populate sample data
-3. Explore analytical queries in the queries/ folder
+1. Run `schema/01_create_schema.sql` to create the database tables
+2. Run `inserts/01_insert_data.sql` to populate sample data
+3. Explore the analytical queries in the `queries/` folder
 
 ## ERD
-Bookstore ERD
+![Bookstore ERD](ERD/bookstore_erd.png)
 
-Technologies
+## Technologies
 - SQL (PostgreSQL / MySQL compatible)
 - Database Design & Normalization
 - Relational Modeling
+- Entity-Relationship Diagrams
+
+## License
+This project is licensed under the [MIT License](LICENSE).
