@@ -38,7 +38,7 @@ bookstore-database-sql/
 ## How to Use
 1. Run `schema/01_create_schema.sql` to create the database tables
 2. Run `inserts/01_insert_data.sql` to populate sample data
-3. Explore the analytical queries in the `queries/` folder
+3. Explore the basic queries in the `queries/` folder
 4. Explore the [Data Dictionary](docs/data_dictionary.md)
 
 ## ERD
@@ -46,7 +46,7 @@ bookstore-database-sql/
 
 ## Conclusions
 
-This project demonstrates the design of a normalized relational database and the development of basic SQL queries to interact with it. The schema supports core bookstore operations, and the queries allow retrieval of information such as customer orders, book inventory, and sales summaries.
+This project involved designing a fully normalized relational database and the development of basic SQL queries to interact with it. The schema supports core bookstore operations, and the queries allow retrieval of information such as customer orders, book inventory, and sales summaries.
 
 ## Future Enhancements
 
